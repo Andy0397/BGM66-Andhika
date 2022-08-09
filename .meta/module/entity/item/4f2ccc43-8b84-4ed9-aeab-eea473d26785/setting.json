@@ -1,0 +1,25 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Cube Container/Brown Square Container.actor"
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "gravity": 0,
+    "name": {
+      "value": "entity_4f2ccc43-8b84-4ed9-aeab-eea473d26785"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b9f1eec7b7ff91f781faab4e86ee302f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

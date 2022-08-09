@@ -1,0 +1,103 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "jumpSpeed": 15,
+    "maxHp": 100,
+    "moveSpeed": 9,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "skill": [
+      "myplugin/98e883ef-209a-440f-baa8-0d54c3f9aca5"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "611ebadb-b245-4c75-8651-cef17bdc94b7"
+              },
+              "pos": {
+                "x": 699,
+                "y": 353
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "efa64aa7-6a65-48fb-9601-bb7ef1092416"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "611ebadb-b245-4c75-8651-cef17bdc94b7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3429f9c6-c664-4bdc-9ea1-80a9bd393614"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "97cb4128d6f61d5bea7e9602ad77f71f",
+      "triggers.bts": "13e306cf428b180743297ea7a3e5a2b3"
+    },
+    "VERSION": "0.22"
+  }
+}

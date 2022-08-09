@@ -1,0 +1,48 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 20,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_system_98e883ef-209a-440f-baa8-0d54c3f9aca5"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9026a2fc5f7b0414a801fd7e94182f5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

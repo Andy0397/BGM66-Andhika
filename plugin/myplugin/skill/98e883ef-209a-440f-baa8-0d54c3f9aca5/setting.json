@@ -1,0 +1,80 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "attack",
+  "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 20,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enableCdMask": true,
+  "enableCdTip": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "hurtDistance": 0.1,
+  "icon": "@asset/Texture/Skill/common/icon_近战攻击_nor.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon_近战攻击_act.png",
+  "ignoreCastSkillPreS": true,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/5662482c-dc64-40d8-af0c-2658111c5821"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Self",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

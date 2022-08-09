@@ -1,0 +1,96 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityRebirthPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f92a4754-96d3-4731-94d3-1a0645851c57"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "y": 0.53999809265137,
+                            "z": 1.755
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "be71c82e-0643-4701-b0e8-9ff62c05aa5b"
+              },
+              "pos": {
+                "x": 863,
+                "y": 269
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "f92a4754-96d3-4731-94d3-1a0645851c57"
+              },
+              "pos": {
+                "x": 1463,
+                "y": 163
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f7497749-7b62-4f62-94ff-a29d00903074"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "be71c82e-0643-4701-b0e8-9ff62c05aa5b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "14b0d0b6-b595-41a7-9c83-90fc5d82d9b8"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "817d918f3a9f856a2ae916fced982daa"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,6 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 10, entity = $obj2)
+	StartTimer2(interval = 20, time = 2, timer = "") {
+		SetEntityPosition(entity = $obj2, map = "map001", pos = GetRebirthPos(), rp = 0, ry = 0)
+	}
+}

@@ -1,0 +1,70 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Yellow Rectangular Wooden Chest/Advanced Treasure Chest.actor"
+    },
+    "canClick": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_64f4c66b-7625-46ec-abc7-368d45f16c11"
+    },
+    "skill": [
+      ""
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "68978439-c605-400f-9df0-b4fc916a3d98"
+              },
+              "pos": {
+                "x": 782,
+                "y": 321
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "3f79386b-005f-48d5-a0e3-9e1f9df1d9e5"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "68978439-c605-400f-9df0-b4fc916a3d98"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "9cf7db39-5737-4f64-8596-4aaffde1b240"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6d62203f7567cc2530e4e2a48a0c7419",
+      "triggers.bts": "c3099b3be01fb187243239022c0db356"
+    },
+    "VERSION": "0.22"
+  }
+}

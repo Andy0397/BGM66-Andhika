@@ -1,0 +1,46 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_lvpidijing.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_2_3_4.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" ColorParams="1 1 1 1" SlaveName="body" MasterName="body" Group="">
+				<Effect>
+					<scale value="1.5"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.0854174"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_pet_gebuling2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.05239e-43 2.68631e+20 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_lvpidijing.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_lvpidijing_zoulu.anim"/>
+			<Anim Name="asset/Anim/g2021_lvpidijing_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_lvpidijing_gongji.anim"/>
+			<Anim Name="asset/Anim/g2021_lvpidijing_daiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_lvpidijing_gongji.anim" Channel="" TimeScale="1.5" Length="1.7" Times="1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_lvpidijing_shouji.anim" Channel="" TimeScale="1" Length="0.866" Times="1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_lvpidijing_daiji.anim" Channel="" TimeScale="1" Length="1.366" Times="-1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_lvpidijing_zoulu.anim" Channel="" TimeScale="1" Length="1.433" Times="-1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

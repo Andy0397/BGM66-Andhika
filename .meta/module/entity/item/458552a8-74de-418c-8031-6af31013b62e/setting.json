@@ -1,0 +1,45 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Gavel Green Dwarf/Evil Goblin.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/9f8e5a75-1e39-4293-b816-4593b2a3f2d2"
+        }
+      ]
+    },
+    "AI_walkRules": {
+      "ai_navigation": {
+        "enable": true
+      },
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_458552a8-74de-418c-8031-6af31013b62e"
+    },
+    "skill": [
+      ""
+    ],
+    "textHeight": 1.3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "788f0039cc3531ea3ee26bb6cf6f4013",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
